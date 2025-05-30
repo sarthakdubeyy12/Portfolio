@@ -1,7 +1,7 @@
 import React from 'react';
-import DavLogo from '../assets/Dav.png'; 
-import kvLogo from '../assets/KVS_SVG_logo.svg.png';
-import VitLogo from '../assets/vit-bhopal.png';
+// import DavLogo from '../assets/Dav.png'; 
+// import kvLogo from '../assets/KVS_SVG_logo.svg.png';
+// import VitLogo from '../assets/vit-bhopal.png';
 import Footer from './Footer';
 import '../App.css';
 
@@ -106,7 +106,7 @@ const Academics = () => {
                             </a>
                         </div>
                     </div>
-                    <img src={DavLogo} alt="DAV ACC Public School Logo" style={logoStyle} />
+                    <img src="../assets/Dav.png" alt="DAV ACC Public School Logo" style={logoStyle} />
                 </div>
                 <div style={boxStyle}>
                     <div style={contentStyle}>
@@ -120,7 +120,7 @@ const Academics = () => {
                             </a>
                         </div>
                     </div>
-                    <img src={kvLogo} alt="Kendriya Vidyalaya N.K.J School Logo" style={logoStyle} />
+                    <img src="../assets/KVS_SVG_logo.svg.png" alt="Kendriya Vidyalaya N.K.J School Logo" style={logoStyle} />
                 </div>
                 <div style={boxStyle}>
                     <div style={contentStyle}>
@@ -134,7 +134,7 @@ const Academics = () => {
                             </a>
                         </div>
                     </div>
-                    <img src={VitLogo} alt="VIT Bhopal Logo" style={logoStyle} />
+                    <img src="../assets/vit-bhopal.png" alt="VIT Bhopal Logo" style={logoStyle} />
                 </div>
             </div>
             <Footer />
