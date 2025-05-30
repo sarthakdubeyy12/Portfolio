@@ -1,14 +1,26 @@
-# Node modules and cache
+# Node dependencies
 node_modules/
+
+# Build and cache
+build/
+dist/
 .cache/
 
-# OS and build
-.DS_Store
-dist/
-build/
+# Vercel & environment
 .env
+.env.local
+.vercel/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp

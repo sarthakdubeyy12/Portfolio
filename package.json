@@ -1,7 +1,7 @@
 {
   "name": "portfolio-sarthak",
   "version": "0.1.0",
-  "homepage": "/My-portfolio",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
