@@ -134,7 +134,7 @@ const Academics = () => {
                             </a>
                         </div>
                     </div>
-                    <img src={VitLogo} alt="VIT Bhopal Logo" style={logoStyle} />
+                    <img src='../../public/assets/vit-bhopal.png' alt="VIT Bhopal Logo" style={logoStyle} />
                 </div>
             </div>
             <Footer />
