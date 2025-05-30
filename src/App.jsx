@@ -11,7 +11,7 @@ import './index.css';
 const App = () => {
   return (
     <div className="flex flex-col min-h-screen">
-      <BrowserRouter basename="/My-portfolio">
+      <BrowserRouter>
         <Navbar />
         <main className="flex-grow">
           <Routes>
