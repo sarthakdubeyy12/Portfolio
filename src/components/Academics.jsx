@@ -1,7 +1,7 @@
 import React from 'react';
-import DavLogo from '../../public/assets/Dav.png'; 
-import kvLogo from '../../public/assets/KVS_SVG_logo.svg.png';
-import VitLogo from '../../public/assets/vit-bhopal.png';
+import DavLogo from '../assets/Dav.png'; 
+import kvLogo from '../assets/KVS_SVG_logo.svg.png';
+import VitLogo from '../assets/vit-bhopal.png';
 import Footer from './Footer';
 import '../App.css';
 
