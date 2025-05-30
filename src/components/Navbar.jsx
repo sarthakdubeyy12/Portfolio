@@ -23,10 +23,9 @@ const Navbar = () => {
       <div className="mx-auto text-center flex w-5/6 justify-between">
         
         
-        <div className="text-3xl sm:text-2xl font-extrabold">
-          <a href="/">Sarthak Dubey</a>
+        <div className="text-6xl sm:text-3xl font-extrabold">
+          <a href="/">SARTHAK</a>
         </div>
-        
         <div className="hidden sm:flex space-x-4 items-center text-sm">
           <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>

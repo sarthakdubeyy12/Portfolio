@@ -33,8 +33,12 @@ const Academics = () => {
         gap: '40px', // Add space between each container
         width: '100%', // Full width from left to right
         marginTop: '110px', // Push down to avoid overlapping with the heading
+        marginBottom: '20px', // Push down to avoid overlapping with the footer
         zIndex: 0, // Ensure the containers are beneath the heading
         flex: 1, // Allow content to take up available space
+        alignItems: 'center', // Center items vertically
+        justifyContent: 'center', // Space out the content and logo
+        
     };
 
     const boxStyle = {
@@ -43,15 +47,16 @@ const Academics = () => {
         borderRadius: '0.5rem', // Equivalent to rounded-lg
         padding: '15px',
         boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', // Shadow similar to Tailwind's shadow
-        width: '100%', // Full width inside the container
+        width: '60%', // Full width inside the container
         color: '#fff', // White text for contrast
         display: 'flex', // Use flexbox to align items
         alignItems: 'center', // Center items vertically
-        justifyContent: 'space-between', // Space out the content and logo
+        justifyContent: 'center', // Space out the content and logo
     };
 
     const contentStyle = {
         flex: 1, // Allow content to take available space
+        textAlign: 'center',
     };
 
     const logoStyle = {
