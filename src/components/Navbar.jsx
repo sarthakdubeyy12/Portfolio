@@ -51,7 +51,7 @@ const Navbar = () => {
             <li><Link to='/' onClick={closeMobileMenu}>Home</Link></li>
             <li><Link to='/about' onClick={closeMobileMenu}>About</Link></li>
             <li><Link to='/projects' onClick={closeMobileMenu}>Projects</Link></li>
-            <li><Link to='/experience' onClick={closeMobileMenu}>Experince</Link></li>
+            <li><Link to='/experience' onClick={closeMobileMenu}>Experience</Link></li>
             <li><Link to='/contact' onClick={closeMobileMenu}>Contact</Link></li>
             <li><Link to='/skills' onClick={closeMobileMenu}>Skills</Link></li>
             <li><Link to='/academics' onClick={closeMobileMenu}>Academics</Link></li>
