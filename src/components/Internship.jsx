@@ -1,5 +1,5 @@
 import React from 'react';
-import cognifyzLogo from '../assets/cognifyz_logo.png';
+// import cognifyzLogo from '../assets/cognifyz_logo.png';
 import Footer from './Footer'; // Import the Footer component
 
 const Internship = () => {
@@ -89,11 +89,7 @@ const Internship = () => {
                         Offer Letter
                     </button>
                 </div>
-                <img
-                    src={cognifyzLogo} 
-                    alt="Company Logo"
-                    style={logoStyle}
-                />
+                {/* <img src={cognifyzLogo} alt="Company Logo" style={logoStyle} /> */}
             </div>
             <Footer /> {/* Add the Footer component here */}
         </div>
