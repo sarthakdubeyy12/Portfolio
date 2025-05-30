@@ -1,5 +1,5 @@
 import React from 'react';
-import cognifyzLogo from 'file:///Users/sarthakdubey/Downloads/My-Portfolio-main/src/assets/cognifyz%20logo.png';
+import cognifyzLogo from '../assets/cognifyz_logo.png';
 import Footer from './Footer'; // Import the Footer component
 
 const Internship = () => {
